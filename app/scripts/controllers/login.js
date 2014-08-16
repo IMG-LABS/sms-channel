@@ -8,6 +8,8 @@
  * Controller of the smsChannelApp
  */
 angular.module('smsChannelApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('LoginCtrl', function ($scope) {
+
+    $scope.temps = {};
 
   });
