@@ -8,9 +8,9 @@
  *
  * Main module of the application.
  */
-angular
-  .module('smsChannelApp', [
+var app = angular.module('smsChannelApp', [
     'ngAnimate',
     'ngSanitize',
-    'ngTouch'
+    'ngTouch',
+    'ui.router'
   ]);
